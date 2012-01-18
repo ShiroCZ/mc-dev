@@ -33,7 +33,7 @@ public class RegionFileCache {
             file2.mkdirs();
         }
 
-        if (a.size() >= 256) {
+        if (a.size() >= 1024) {
             a();
         }
 
